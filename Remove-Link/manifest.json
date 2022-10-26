@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Delete Link",
+  "version": "1.0",
+  "description": "Remove the link on the page and keep the text",
+
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-64.png",
+    "128": "images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
