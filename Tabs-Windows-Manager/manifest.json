@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Tab Manager",
+  "name": "Tab Managers Windows",
   "description": "Không cho phép mở quá 4 tab hoặc 2 cửa sổ chrome cùng lúc.",
   "version": "1.0",
   "icons": {
